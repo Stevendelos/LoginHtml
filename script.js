@@ -49,7 +49,7 @@ window.loginUser = function() {
 
     signInWithEmailAndPassword(auth, email, password)
         .then(() => {
-            window.location.href = "dashboard.html"; // ✅ Redirect to profile
+            window.location.href = "grand.html"; // ✅ Redirect to profile
         })
         .catch((error) => {
             alert(error.message);
